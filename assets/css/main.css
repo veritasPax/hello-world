@@ -194,4 +194,13 @@ footer {
 
 .hero {
   padding: 22px 80px 66px 80px;
+  line-height: 44px;
+}
+
+.hero h2 {
+  font-size: 2em;
+}
+
+.hero p {
+  font-size: 1.2em;
 }
