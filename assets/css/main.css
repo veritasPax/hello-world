@@ -46,10 +46,61 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
 }
 
+h1, h2, h4, h5 {
+  color: $648880;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 44px;
+}
+
+h2 {
+  font-size: 1.7em;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  color: #a9b2b9;
+  font-size: 1em;
+  font-weight: 400;
+}
+
 small {
   font-size: .8em;
 }
 
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
+
+
+/*
+  ====================
+  Links
+  ====================
+*/
+
+a:hover {
+  color: #a9b2b9;
+}
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
 
 /*
   ====================
@@ -96,10 +147,28 @@ General
 ====================
 */
 
+html {
+  color: #555;
+  font: 300 16px/22px "Open Sans", "Helvetica Neue", Heveltica, Arial, sans-serif;
+}
+
+.tagline {
+  margin-left: 275px;
+  padding: 5px;
+  background-color: #333;
+  color: #eee;
+}
+
 .logo {
   border-top: 5px solid #648880;
   padding: 40px 0 22px 0;
   float: left;
+  font-size: 2.5em;
+  padding: 40px 0 22px 0;
+}
+
+.logo a {
+  text-align: center;
 }
 
 nav {
