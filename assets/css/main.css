@@ -72,6 +72,7 @@ h5 {
   color: #a9b2b9;
   font-size: 1em;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 small {
@@ -100,6 +101,10 @@ a:hover {
 a {
   color: #648880;
   text-decoration: none;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
 }
 
 /*
@@ -157,14 +162,15 @@ html {
   padding: 5px;
   background-color: #333;
   color: #eee;
+  text-align: right;
 }
 
 .logo {
   border-top: 5px solid #648880;
   padding: 40px 0 22px 0;
   float: left;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, .3);
   font-size: 2.5em;
-  padding: 40px 0 22px 0;
 }
 
 .logo a {
@@ -172,8 +178,10 @@ html {
 }
 
 nav {
-  padding-left: 44px;
-  padding-right: 44px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .info {
@@ -195,6 +203,7 @@ footer {
 .hero {
   padding: 22px 80px 66px 80px;
   line-height: 44px;
+  text-align: center;
 }
 
 .hero h2 {
