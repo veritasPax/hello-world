@@ -154,7 +154,7 @@ General
 
 html {
   color: #555;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Heveltica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Heveltica, Arial, sans-serif;
 }
 
 .tagline {
@@ -169,8 +169,11 @@ html {
   border-top: 5px solid #648880;
   padding: 40px 0 22px 0;
   float: left;
-  text-shadow: 2px 3px 2px rgba(0, 0, 0, .3);
   font-size: 2.5em;
+  font-weight: 100;
+  letter-spacing: .5px;
+  line-height: 44px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, .3);
 }
 
 .logo a {
@@ -211,5 +214,7 @@ footer {
 }
 
 .hero p {
-  font-size: 1.2em;
+  padding: 0 80px;
+  font-size: 1.5em;
+  color: #aaa;
 }
