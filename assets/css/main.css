@@ -182,11 +182,15 @@ html {
   font-weight: 100;
   letter-spacing: .5px;
   line-height: 44px;
-  text-shadow: 2px 3px 2px rgba(255, 255, 255, .3);
+  text-align: center;
 }
 
 .logo a {
-  text-align: center;
+  color: #fff;
+}
+
+.logo:hover {
+  border-top-color: #fff;
 }
 
 nav {
