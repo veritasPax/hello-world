@@ -115,9 +115,8 @@ p a {
 
 .btn {
   display: inline-block;
-  border-radius: 5px;
+  border-radius: 7px;
   margin: 0;
-  color: #fff;
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
@@ -126,11 +125,12 @@ p a {
 .btn-alt {
   border: 1px solid #fff;
   padding: 10px 30px;
+  background-color: #fff;
+  color: #648880;
 }
 
 .btn-alt:hover {
-  background: #fff;
-  color: #648880;
+  border-radius: 0;
 }
 
 
@@ -207,9 +207,8 @@ nav a {
   color: #fff;
 }
 
-nav a:last-child {
+nav a:nth-last-child(2){
   border-right: none;
-  padding-right: 0;
 }
 
 nav a:hover {
